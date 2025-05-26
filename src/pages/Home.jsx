@@ -10,6 +10,9 @@ import { db } from "./firebase-config"
 
 import homeimg1 from "../assets/Gallery/1.jpeg"
 
+import banner from "../assets/images/banner.jpg"
+
+
 
 
 
@@ -276,7 +279,7 @@ function Home() {
       </style>
 
       <Image
-        src="/images/banner.jpg"
+        src={banner}
         className={`py-2 img-fluid banner-image ${isLoaded ? "fade-in" : ""}`}
         alt="TDITS Banner"
         rounded
