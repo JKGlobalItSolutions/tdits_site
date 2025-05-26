@@ -6,6 +6,13 @@ import { Link, useLocation } from "react-router-dom"
 import { collection, getDocs, query, orderBy, limit } from "firebase/firestore"
 import { db } from "./firebase-config"
 
+
+
+import homeimg1 from "../assets/Gallery/1.jpeg"
+
+
+
+
 const EventCard = React.memo(({ event }) => (
   <Card className="h-100 shadow-lg hover-card">
     <Card.Img
@@ -281,7 +288,7 @@ function Home() {
           <Row className="align-items-center hidden">
             <Col md={6}>
               <Image
-                src="./Gallery/1.jpeg"
+                src={homeimg1}
                 className="p-2 img-fluid rounded shadow-lg"
                 alt="TDITS General Body Meeting - Our Team"
                 loading="lazy"
