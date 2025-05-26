@@ -16,6 +16,7 @@ import banner from "../assets/images/banner.jpg"
 
 
 
+
 const EventCard = React.memo(({ event }) => (
   <Card className="h-100 shadow-lg hover-card">
     <Card.Img
@@ -316,7 +317,7 @@ function Home() {
           </Row>
         </section>
 
-        <section className="my-5">
+        {/* <section className="my-5">
           <h2 className="text-center mb-4 hidden">Upcoming Events</h2>
           {loadingEvents ? (
             <div className="events-loader">
@@ -340,7 +341,9 @@ function Home() {
               </div>
             </>
           )}
-        </section>
+        </section> */}
+
+
       </Container>
     </Container>
   )

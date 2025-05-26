@@ -3,8 +3,12 @@ import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa"
 
+import logo from "../assets/images/logo.png"
+
+
 function Footer() {
   const currentYear = new Date().getFullYear()
+
 
   return (
     <footer className="bg-light py-4 mt-auto">
@@ -118,7 +122,7 @@ function Footer() {
         <Row className="mb-4 footer-content">
           <Col xs={12} md={3} className="mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
             {/* Logo with responsive size */}
-            <img src="/images/logo.png" alt="TDITS Logo" className="footer-logo" />
+            <img src={logo}alt="TDITS Logo" className="footer-logo" />
             <p className="logo-text text-center text-md-start">
               Tiruvannamalai Development Information Technology Society - Fostering innovation, collaboration, and
               community development since 2023.

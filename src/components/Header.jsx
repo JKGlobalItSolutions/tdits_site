@@ -2,6 +2,10 @@ import { Link, useLocation } from "react-router-dom"
 import { Navbar, Nav, Button, Container } from "react-bootstrap"
 import { FaLock } from "react-icons/fa"
 
+
+
+import logo from "../assets/images/logo.png" // Adjust the path as necessary
+
 function Header() {
   const location = useLocation()
 
@@ -35,7 +39,7 @@ function Header() {
     <Navbar bg="light" expand="lg" className="px-1 py-2 shadow-sm">
       <Container fluid>
         <Navbar.Brand as={Link} to="/">
-          <img src="/images/logo.png" alt="TDITS Logo" height="60" className="d-inline-block align-top mx-3" />
+          <img src={logo} alt="TDITS Logo" height="60" className="d-inline-block align-top mx-3" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
