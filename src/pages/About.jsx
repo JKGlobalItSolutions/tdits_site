@@ -138,7 +138,7 @@ function About() {
             <Col md={6} className="p-2 hidden">
               <h2 className="mb-4">Who We Are</h2>
               <p>
-                The <b>Tiruvannamalai</b> Development Information Technology Society <b>(TDITS)</b> is a hub for
+                The <b>Tiruvannamalai</b> District  Information Technology Society <b>(TDITS)</b> is a hub for
                 innovation, collaboration, and community development. We bring together like-minded individuals,
                 businesses, and organizations to create a thriving ecosystem for growth and advancement. At TDITS, we
                 aim to foster a culture of knowledge-sharing, technological progress, and community-driven initiatives

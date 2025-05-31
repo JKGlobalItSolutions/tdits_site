@@ -124,7 +124,7 @@ function Footer() {
             {/* Logo with responsive size */}
             <img src={logo}alt="TDITS Logo" className="footer-logo" />
             <p className="logo-text text-center text-md-start">
-              Tiruvannamalai Development Information Technology Society - Fostering innovation, collaboration, and
+              Tiruvannamalai District  Information Technology Society - Fostering innovation, collaboration, and
               community development since 2023.
             </p>
           </Col>
@@ -246,7 +246,7 @@ function Footer() {
         <Row>
           <Col className="border-top pt-3">
             <p className="footer-text mb-0">
-              &copy; {currentYear} Tiruvannamalai Development Information Technology Society. All rights reserved. |
+              &copy; {currentYear} Tiruvannamalai District  Information Technology Society. All rights reserved. |
               Developed by{" "}
               <a href="https://jkglobalitsolution.com" target="_blank" rel="noopener noreferrer">
                 JK Global IT Solutions
